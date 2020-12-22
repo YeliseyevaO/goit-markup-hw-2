@@ -7,6 +7,9 @@
 body {
     font-family: var(--main-font);
 }
+button {
+    font-family: var(--main-font);
+}
 /*========components=======*/
 li {
     list-style-type: none;
@@ -16,7 +19,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: #212121;
+    color: #212121; 
 }
 .title {
     font-weight: 700;
@@ -52,7 +55,7 @@ a{
     font-size: 26px;
     line-height: 1,192;
     letter-spacing: 0.03em;
-   /* color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 .tel:hover,
 .tel:focus,
@@ -77,19 +80,29 @@ a{
 .navigation-list-link:focus {
     color: var(--accent-color)  
 }
+.navigation-list.navigation-list-link,
+.current{
+    color: var(--accent-color);
+}
 /*==========end header=====*/
 /*========hero =========*/
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.363;
-    color: #212121;
+    line-height: 1.364;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: teal;
+
+/*=======color: #FFFFFF;========*/
 }    
-.mdl.button {
+ .mdl.button {
+    font-family: "Roboto"; sans-serif;
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    font-size: 16px;
    /* color: #FFFFFF;*/
      color:#212121
     }
@@ -152,14 +165,20 @@ a{
    }
    /*=======end employee=====*/
    /*=======footer==========*/
+   .footer{
+       background-color:teal;
+   }
    .address{
        font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-   /* color: #FFFFFF; */      
+    color: #FFFFFF;      
    }
+   .contacts a{
+    color: rgba(255, 255, 255, 0.6);
+}
    /*=======end footer====*/
 
 
